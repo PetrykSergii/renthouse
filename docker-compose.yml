@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  web:
+    image: sergiiops/testingsite:${BUILD_NUMBER}
+    ports:
+      - "8081:80"
+    restart: always
+
