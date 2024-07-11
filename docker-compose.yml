@@ -4,6 +4,6 @@ services:
   web:
     image: sergiiops/testingsite:${BUILD_NUMBER}
     ports:
-      - "8081:80"
+      - "8080:80"
     restart: always
 
